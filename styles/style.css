@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&display=swap");
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 10px;
+}
+
+.cartCard {
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.actionDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.actionDiv button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  width: 80px;
+  font-size: 23px;
+  color: white;
+}
+
+.actionDiv p {
+  font-size: 23px;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 400px;
+  bottom: 900px;
+}
+
+@media screen and (max-width: 768px) {
+  #grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.rbg {
+  background-color: red;
+}
+
+.container-fluid {
+  background-color: white;
+  font-style: italic;
+}
+
+.my-4 {
+  font-style: italic;
+}
+
+.container my-4 {
+  font-style: italic;
+}
+
+
+
